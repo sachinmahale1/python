@@ -65,9 +65,9 @@ for i in url:
     page = requests.get(i)
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(page.text, 'html.parser')
-    for a in soup.find_all(class_='product-name p2', href=True):
+sfsd    for a in soup.find_all(class_='product-name p2', href=True):
         product=(a['href']) + "buy/"
-        page = requests.get(product)
+sdfsdfds        page = requests.get(product)
         if page.status_code == 404:
             print(product)
 
