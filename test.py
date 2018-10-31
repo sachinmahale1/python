@@ -74,3 +74,4 @@ for i in url:
 #url2 = "https://www.sonymobile.com/gb/products/phones/xperia-xz2-premium/buy/"
 #page = requests.get(url2)
 #print (page.status_code)
+#
